@@ -1,7 +1,0 @@
-# Bank-Marketing-Response-Prediction
-
-
-This project is a Machine Learning–based web application developed using Streamlit to predict whether a customer will subscribe to a bank term deposit. The model is trained on the Bank Marketing dataset and leverages customer demographic information along with marketing campaign attributes such as age, job, marital status, education, account balance, loan details, contact type, call duration, and previous campaign interactions. Users can enter these details through an interactive and user-friendly interface, after which the application processes the inputs, applies the same feature logic used during training, and generates a prediction along with a confidence score. The project demonstrates the complete machine learning pipeline, including data preparation, model training, evaluation, and deployment, and highlights practical concepts.
-
-
-The project uses a small set of core Python libraries to keep the application simple and efficient. Streamlit is used to build the interactive web interface and handle user inputs and output display. NumPy is used for numerical operations and for creating the input array that is passed to the machine learning model. Scikit-learn is used to train the machine learning model and provides the prediction and probability methods used during inference. Pickle is used to save the trained model and load it into the Streamlit application for deployment.
