@@ -1,6 +1,6 @@
-# 🧠 Named Entity Recognition using BERT
+# Named Entity Recognition using BERT
 
-## 📌 Project Overview
+## Project Overview
 
 This project implements a **Named Entity Recognition (NER)** system using a **BERT-based transformer model** to identify and classify entities in text such as **Person, Organization, and Location**.
 
@@ -8,7 +8,7 @@ The model processes input text and outputs structured entity predictions with im
 
 ---
 
-## 🎯 Objective
+## Objective
 
 * To build an NLP model capable of identifying entities in unstructured text
 * To improve prediction reliability using **confidence calibration techniques**
@@ -16,7 +16,7 @@ The model processes input text and outputs structured entity predictions with im
 
 ---
 
-## 📂 Dataset Used
+## Dataset Used
 
 * **CoNLL-2003 Dataset**
 * Contains annotated sentences with entity labels:
@@ -28,7 +28,7 @@ The model processes input text and outputs structured entity predictions with im
 
 ---
 
-## ⚙️ Technologies & Libraries
+## Technologies & Libraries
 
 * Python
 * Hugging Face Transformers
@@ -38,7 +38,7 @@ The model processes input text and outputs structured entity predictions with im
 
 ---
 
-## 🧠 Model Used
+## Model Used
 
 * **BERT (Bidirectional Encoder Representations from Transformers)**
 * Fine-tuned for Named Entity Recognition task
@@ -46,35 +46,35 @@ The model processes input text and outputs structured entity predictions with im
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### ✔️ 1. Transformer-Based NER
+### 1. Transformer-Based NER
 
 * Uses pre-trained BERT model for high-quality contextual understanding
 
-### ✔️ 2. Confidence Calibration (New Feature)
+### 2. Confidence Calibration (New Feature)
 
 * Implemented **temperature scaling** to adjust prediction confidence scores
 * Helps reduce overconfident predictions and improves reliability
 
-### ✔️ 3. Entity Grouping
+### 3. Entity Grouping
 
 * Combines token-level outputs into meaningful full entities
 * Example:
   `Barack + Obama → Barack Obama (Person)`
 
-### ✔️ 4. User-Friendly Output
+### 4. User-Friendly Output
 
 * Converts raw model output (B-PER, I-PER) into readable format
 * Improves interpretability for end users
 
-### ✔️ 5. Streamlit Web App
+### 5. Streamlit Web App
 
 * Interactive interface to input text and visualize entity predictions
 
 ---
 
-## 📊 Sample Output
+## Sample Output
 
 Input:
 
@@ -89,85 +89,6 @@ Barack Obama → Person
 India → Location
 ```
 
----
-
-## 📈 Evaluation (Add your values if available)
-
-* Accuracy: XX%
-* Precision: XX%
-* Recall: XX%
-* F1 Score: XX
-
----
-
-## 🛠️ Installation & Usage
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/project-NER-with-BERT.git
-cd project-NER-with-BERT
-```
-
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the Application
-
-```bash
-streamlit run app.py
-```
-
----
-
-## 📌 Project Structure
-
-```
-project-NER-with-BERT/
-│── app.py
-│── model/
-│── data/
-│── notebook.ipynb
-│── requirements.txt
-│── README.md
-```
-
----
-
-## 🔍 Observations
-
-* BERT provides strong contextual understanding for entity detection
-* Confidence calibration improves trust in predictions
-* Model performs well on standard entity categories but may struggle with rare entities
-
----
-
-## ⚠️ Limitations
-
-* Performance depends on dataset quality
-* Limited handling of domain-specific entities
-* Requires optimization for faster inference
-
----
-
-## 🔮 Future Improvements
-
-* Add more entity categories (custom NER)
-* Improve model efficiency and speed
-* Deploy as API for real-world applications
-* Add visualization (highlighted text output)
-
----
-
-## 👨‍💻 Author
-
-Kesav B N
-MSc Applied Physics (2023–2025)
-
----
 
 ## ⭐ Acknowledgements
 
