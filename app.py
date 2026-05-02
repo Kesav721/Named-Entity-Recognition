@@ -5,8 +5,8 @@ from transformers import pipeline
 def load_model():
     ner_pipeline = pipeline(
         "ner",
-        model="./NER",
-        tokenizer="./NER",
+        model="./NER-Model",
+        tokenizer="./NER-Model",
         aggregation_strategy=None   # manual handling
     )
     return ner_pipeline
